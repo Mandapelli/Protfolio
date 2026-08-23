@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Resume of Mandapelli Mounika — Software Engineer & Full-Stack Developer specializing in React, TypeScript, Node.js, and AWS."
+    />
+    <title>Mandapelli Mounika — Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/resume.css" />
+  </head>
+  <body>
+    <div class="toolbar no-print" role="toolbar" aria-label="Resume actions">
+      <button type="button" id="print-btn" class="toolbar-btn toolbar-btn--primary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path
+            d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2M6 14h12v8H6v-8z"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        Print / Save PDF
+      </button>
+      <button type="button" id="copy-email-btn" class="toolbar-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <rect x="9" y="9" width="13" height="13" rx="2" stroke="currentColor" stroke-width="2" />
+          <path
+            d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"
+            stroke="currentColor"
+            stroke-width="2"
+          />
+        </svg>
+        Copy Email
+      </button>
+      <a href="/" class="toolbar-btn">← Back to Portfolio</a>
+    </div>
+
+    <main id="resume" class="resume" aria-label="Resume of Mandapelli Mounika">
+      <header class="resume-header">
+        <div class="resume-header__identity">
+          <h1 id="resume-name" class="resume-name"></h1>
+          <p id="resume-title" class="resume-title"></p>
+        </div>
+        <ul id="resume-contact" class="resume-contact" aria-label="Contact information"></ul>
+      </header>
+
+      <div class="resume-body">
+        <div class="resume-main">
+          <section class="resume-section" aria-labelledby="experience-heading">
+            <h2 id="experience-heading" class="section-heading">Experience</h2>
+            <div id="experience-list" class="section-content"></div>
+          </section>
+
+          <section class="resume-section" aria-labelledby="projects-heading">
+            <h2 id="projects-heading" class="section-heading">Projects</h2>
+            <div id="projects-list" class="section-content"></div>
+          </section>
+        </div>
+
+        <aside class="resume-sidebar">
+          <section class="resume-section" aria-labelledby="skills-heading">
+            <h2 id="skills-heading" class="section-heading">Technical Skills</h2>
+            <div id="skills-list" class="section-content"></div>
+          </section>
+
+          <section class="resume-section" aria-labelledby="education-heading">
+            <h2 id="education-heading" class="section-heading">Education</h2>
+            <div id="education-list" class="section-content"></div>
+          </section>
+
+          <section class="resume-section" aria-labelledby="languages-heading">
+            <h2 id="languages-heading" class="section-heading">Languages</h2>
+            <ul id="languages-list" class="language-list section-content"></ul>
+          </section>
+
+          <section class="resume-section" aria-labelledby="certifications-heading">
+            <h2 id="certifications-heading" class="section-heading">Certifications</h2>
+            <div id="certifications-list" class="section-content"></div>
+          </section>
+        </aside>
+      </div>
+    </main>
+
+    <div id="toast" class="toast no-print" role="status" aria-live="polite"></div>
+
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>
