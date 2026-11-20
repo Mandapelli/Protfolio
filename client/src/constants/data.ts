@@ -210,7 +210,7 @@ export const experiences = [
 
     designation: 'Software Engineer — Full-Stack Developer',
 
-    duration: 'Jun 2025 – Present',
+    duration: 'sept 2024 – Present',
 
     location: 'Hyderabad, India',
 
@@ -228,31 +228,31 @@ export const experiences = [
 
   },
 
-  {
+  // {
 
-    id: 'exp-2',
+  //   id: 'exp-2',
 
-    company: 'Voltuswave',
+  //   company: 'Voltuswave',
 
-    designation: 'Product Intern',
+  //   designation: 'Product Intern',
 
-    duration: 'Sep 2024 – May 2025',
+  //   duration: 'Sep 2024 – May 2025',
 
-    location: 'Hyderabad, India',
+  //   location: 'Hyderabad, India',
 
-    achievements: [
+  //   achievements: [
 
-      'Developed e-commerce platform with product listing, cart, and order management (HTML, CSS, JavaScript, Flask).',
+  //     'Developed e-commerce platform with product listing, cart, and order management (HTML, CSS, JavaScript, Flask).',
 
-      'Built face-recognition attendance tracker using Python and OpenCV with web reporting dashboard.',
+  //     'Built face-recognition attendance tracker using Python and OpenCV with web reporting dashboard.',
 
-      'Implemented OTP-based authentication with email/SMS delivery for secure sign-in.',
+  //     'Implemented OTP-based authentication with email/SMS delivery for secure sign-in.',
 
-    ],
+  //   ],
 
-    skills: ['HTML5', 'CSS3', 'JavaScript', 'Flask', 'Python', 'OpenCV'],
+  //   skills: ['HTML5', 'CSS3', 'JavaScript', 'Flask', 'Python', 'OpenCV'],
 
-  },
+  // },
 
 ];
 

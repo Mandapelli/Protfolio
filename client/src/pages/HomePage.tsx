@@ -86,7 +86,7 @@ export function HomePage() {
                   />
                 </div>
                 <div className="absolute -bottom-4 -right-4 rounded-xl border bg-card px-4 py-2 shadow-lg">
-                  <p className="text-sm font-semibold text-primary">1+ Years</p>
+                  <p className="text-sm font-semibold text-primary">2 Years</p>
                   <p className="text-xs text-muted-foreground">Experience</p>
                 </div>
               </div>

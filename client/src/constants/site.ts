@@ -68,7 +68,7 @@ export const TYPING_ROLES = [
 
 export const STATS = [
 
-  { label: 'Years Experience', value: 1, suffix: '+' },
+  { label: 'Years Experience', value: 2, suffix: '+' },
 
   { label: 'Projects Delivered', value: 5, suffix: '+' },
 
